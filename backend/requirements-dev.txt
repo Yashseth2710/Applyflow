@@ -8,8 +8,8 @@ pytest-cov==7.1.0
 httpx==0.28.1
 
 # Linting / typing / formatting
-ruff==0.16.3
-mypy==2.3.0
+ruff==0.16.5
+mypy==2.3.1
 
 # Known vulnerabilities in the pinned dependencies. Also installed separately
 # in CI, so `pip-audit -r` there reads these files rather than whatever the
